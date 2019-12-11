@@ -48,7 +48,7 @@ repositories {
  */
 
 dependencies {
-    // compile 메서드 안에 라이버리르이 이름 앞부분만 추가한 뒤 자동완성 클릭시, 그레이들이 변경된 내용을 자동으로 반영하기 시작한다.
+    // compile 메서드 안에 라이버리르이 이름 앞부분만 추가한 git reset 뒤 자동완성 클릭시, 그레이들이 변경된 내용을 자동으로 반영하기 시작한다.
     compile('org.springframework.boot:spring-boot-starter-web')
     testCompile('org.springframework.boot:spring-boot-starter-test')
 //    testCompile group: 'junit', name: 'junit', version: '4.12'
